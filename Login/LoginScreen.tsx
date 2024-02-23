@@ -6,7 +6,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 
 const LoginScreen = ({navigation}) => {
-  const url = 'http://172.20.10.3:8000/entry_point';
+  const url = 'http://localhost/entry_point';
   const token =
     'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkR1bW15IiwiZW1haWwiOiJEdW1teUBEdW1teS5jb20iLCJleHAiOjE3MDg3MTc0OTF9.MzrsKfNCYXiSE0jtz9SPTHgEfrAByGgRvOcNw8N29TY';
   const [username, setUsername] = useState('');
